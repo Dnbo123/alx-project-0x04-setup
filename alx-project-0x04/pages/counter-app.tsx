@@ -4,7 +4,9 @@ const CounterApp: React.FC = () =>  {
 
     const [count, setCount] = useState(0);
 
+    // Function to increment the count state by 1
     const increment = () => {
+        // Update the count state using the setCount function
         setCount(count + 1);
     }
 
